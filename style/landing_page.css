@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 2022px;
+  height: 785px;
+  flex-shrink: 0;
+  background-color: #fffbf3;
+}
+
+.tammy_food {
+  display: inline-block;
+  color: #3c3c3c;
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 156px;
+  padding-top: 29px;
+}
+
+.tammy_food span {
+  color: #fcc647;
+}
+
+.nav_btns {
+  display: inline-block;
+  width: 696px;
+  height: 27px;
+  margin-top: 38px;
+  padding-left: 550px;
+}
+
+.nav_btns ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav_btns ul li {
+  margin-right: 50px;
+}
+
+.nav_btns a {
+  color: #3c3c3c;
+  font-family: Segoe UI;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.nav_btns a:hover {
+  color: #fcc647;
+  text-decoration: underline;
+}
+
+.btnFast_delivery {
+  display: flex;
+  width: 147.75px;
+  height: 38.75px;
+  padding: 0px 9.5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 9.5px;
+  border-radius: 7.125px;
+  background-color: #fff2d4;
+  margin-top: 133px;
+  margin-left: 156px;
+}
+
+.btnFast_delivery a {
+  width: 105;
+  height: 15;
+  color: #f4b41b;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 16.625px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14.25px;
+  text-decoration: none;
+}
+
+.btnFast_delivery a:hover {
+  color: #fcc647;
+}
+
+.slogan {
+  display: flex;
+  height: auto;
+  flex-shrink: 0;
+  margin-left: 156px;
+  color: #3c3c3c;
+  font-family: Segoe UI;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.slogan h1 {
+  white-space: nowrap;
+  margin-right: 20px;
+}
+
+.slogan span {
+  color: #fcc647;
+}
+
+.food_img {
+  margin-left: auto;
+}
+
+.lorem_description {
+  width: 507px;
+  height: auto;
+  flex-shrink: 0;
+  margin-left: 156px;
+}
+
+.lorem_description p {
+  color: #667085;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0;
+}
+
+.img_food {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 137px;
+}
+
+.get_started {
+  margin-left: 156px;
+  margin-top: 27px;
+}
+
+.more_info {
+  position: relative;
+  bottom: 40px;
+  right: 30px;
+}
+
